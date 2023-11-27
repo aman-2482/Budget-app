@@ -451,7 +451,7 @@ class DrawerExpense extends HookConsumerWidget {
             children: [
               IconButton(
                 onPressed: () async => await launchUrl(
-                    Uri.parse("https://www.instagram.com/tomcruise")),
+                    Uri.parse("https://www.instagram.com/aman_chaudhary__24/")),
                 icon: SvgPicture.asset(
                   "assets/instagram.svg",
                   color: Colors.black,
@@ -460,9 +460,9 @@ class DrawerExpense extends HookConsumerWidget {
               ),
               IconButton(
                 onPressed: () async => await launchUrl(
-                    Uri.parse("https://www.twitter.com/tomcruise")),
+                    Uri.parse("https://www.linkedin.com/in/aman-chaudhary-a8b630250/")),
                 icon: SvgPicture.asset(
-                  "assets/twitter.svg",
+                  "assets/link.svg",
                   color: Colors.black,
                   width: 35.0,
                 ),
